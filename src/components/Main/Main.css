@@ -13,6 +13,11 @@
     padding: 20px;
     color: #585858;
 }
+.main .nav .gem{
+    text-decoration: none;
+    color: skyblue;
+
+}
 
 .main .nav img{
     width: 40px;
@@ -26,7 +31,7 @@
 
 .main .greet{
     margin: 15px 0px;
-    font-size: 56px;
+    font-size: 40px;
     color: #c4c4c4;
     font-weight: 500;
     padding: 20px;
@@ -46,7 +51,7 @@
 }
 
 .main .card{
-    height: 200px;
+    height: 150px;
     padding: 15px;
     background-color: #f0f4f9;
     border-radius: 10px;

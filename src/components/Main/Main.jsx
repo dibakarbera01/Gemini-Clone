@@ -8,7 +8,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="nav">
-                <p>Gemini</p>
+                <a className='gem' href='https://gemini.google.com/app'>Powered By Gemini</a>
                 <img src={assets.user_icon} alt="" />
             </div>
             <div className="main-container">
@@ -16,7 +16,7 @@ const Main = () => {
                 {!showResult
                     ? <>
                         <div className="greet">
-                            <p><span>Hello, I am DR V1.0</span></p>
+                            <p><span>Hello, I am R V 1.0</span></p>
                             <p>How Can I help you today?</p>
                         </div>
                         <div className="cards">
